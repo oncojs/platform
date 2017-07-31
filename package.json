@@ -1,0 +1,39 @@
+{
+  "name": "platform",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@blueprintjs/core": "^1.23.1",
+    "@knit/knit": "^0.6.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "flow-bin": "^0.50.0",
+    "jailbreak-react-scripts": "^0.1.0",
+    "prettier": "^1.5.3",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-styleguidist": "^5.5.7",
+    "sanitize.css": "^5.0.0",
+    "semantic-ui-css": "^2.2.11",
+    "semantic-ui-react": "^0.71.1"
+  },
+  "dependencies": {
+    "@blueprintjs/datetime": "^1.19.0",
+    "@blueprintjs/labs": "^0.4.0",
+    "flow-typed": "^2.1.5",
+    "grid-styled": "^2.0.0-9",
+    "polished": "^1.3.0",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-docgen": "^2.16.0",
+    "react-primitives": "^0.4.3",
+    "styled-components": "^2.1.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "flow": "flow check",
+    "test": "jest --env=jsdom",
+    "start": "styleguidist server",
+    "build": "styleguidist build"
+  }
+}
